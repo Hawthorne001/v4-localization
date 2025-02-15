@@ -1,7 +1,10 @@
 {
   "GENERAL": {
-    "DYDX_ADDRESS": {
+    "DYDX_ADDRESS_FROM_ETHEREUM": {
       "BODY": "Your dYdX Chain address \"{DYDX_ADDRESS}\" was created from the signature of the Ethereum address \"{EVM_ADDRESS}\"."
+    },
+    "DYDX_ADDRESS_FROM_SOLANA": {
+      "BODY": "Your dYdX Chain address \"{DYDX_ADDRESS}\" was created from the signature of the Solana address \"{SOLANA_ADDRESS}\"."
     },
     "LEGACY_SIGNING": {
       "TITLE": "Legacy Signing",
@@ -10,6 +13,12 @@
     "REMEMBER_ME": {
       "TITLE": "Remember Me",
       "BODY": "Only use \"Remember Me\" if you are using a secure device that you own. Selecting this option can expose your keys and information to others if you are on a public or non-secured device."
+    }
+  },
+  "AFFILIATES": {
+    "AFFILIATE_COMMISSIONS": {
+      "TITLE": "Affiliate commissions",
+      "BODY": "Affiliates earn commission on taker fees paid by referred users. To generate affiliate fee share, referred users must have rolling 30-day volume below $50M when they make the trade."
     }
   },
   "PORTFOLIO": {
@@ -22,6 +31,10 @@
     "ACCOUNT_LEVERAGE": {
       "TITLE": "Account Leverage",
       "BODY": "Leverage of your account based on all your open positions. Because your account is cross-margined, each open position has its own leverage while also affecting your overall account leverage."
+    },
+    "AVAILABLE_BALANCE": {
+      "TITLE": "Available Balance",
+      "BODY": "Amount of collateral that is available to trade or withdraw from your cross margin account."
     },
     "BASE_POSITION_NOTIONAL": {
       "TITLE": "Base Position Notional",
@@ -37,7 +50,15 @@
     },
     "BUYING_POWER": {
       "TITLE": "Buying Power",
-      "BODY": "Total available buying power to increase your position on {MARKET}. Your buying power will change based on the market you have selected."
+      "BODY": "This represents your total available buying power. Your buying power is based on the max leverage available on the exchange, and will not change based on the market you have selected."
+    },
+    "CROSS_FREE_COLLATERAL": {
+      "TITLE": "Cross Free Collateral",
+      "BODY": "Amount of collateral that is available to trade or withdraw from your cross margin account."
+    },
+    "CROSS_MARGIN_USAGE": {
+      "TITLE": "Cross Margin Usage",
+      "BODY": "Percentage of your total cross margin used by open positions."
     },
     "CUSTOM_AMOUNT": {
       "TITLE": "Custom Amount",
@@ -91,6 +112,10 @@
       "TITLE": "Leverage",
       "BODY": "Leverage changes the multiplier on your gains or losses. Increasing your leverage increases how much you would gain / lose on a trade with the same price movement."
     },
+    "LIMIT_CLOSE": {
+      "TITLE": "Limit Close",
+      "BODY": "A limit close may not happen instantly, and will only be filled once the entered price is hit. Monitor the Orders tab to check its status."
+    },
     "LIMIT_PRICE": {
       "TITLE": "Limit Price",
       "BODY": "This order can only be filled at the specified limit price or better. If your order crosses at the time of placement, your order will fill any crossing orders at the most favorable price."
@@ -104,6 +129,14 @@
       "BODY": "Percentage difference between your trigger price and limit price."
     },
     "LIQUIDATION_PRICE": {
+      "TITLE": "Liquidation Price",
+      "BODY": "If the oracle price of {SYMBOL} drops below the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
+    },
+    "LIQUIDATION_PRICE_SHORT": {
+      "TITLE": "Liquidation Price",
+      "BODY": "If the oracle price of {SYMBOL} rises above the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
+    },
+    "LIQUIDATION_PRICE_LONG": {
       "TITLE": "Liquidation Price",
       "BODY": "If the oracle price of {SYMBOL} drops below the liquidation price, your position will be liquidated. Upon liquidation, your position will be automatically closed and a liquidation fee of at least 1% will be assessed (may be higher depending on liquidity at the time of liquidation)."
     },
@@ -127,6 +160,10 @@
       "TITLE": "Margin Usage",
       "BODY": "Percentage of your total margin used by open positions."
     },
+    "MARGIN_USED": {
+      "TITLE": "Margin Used",
+      "BODY": "Percentage of your total cross margin used by open positions."
+    },
     "MAX_WITHDRAW": {
       "TITLE": "Maximum Fast Withdraw",
       "BODY": "Maximum amount allowed for a single fast withdraw."
@@ -149,7 +186,7 @@
     },
     "ORACLE_PRICE": {
       "TITLE": "Oracle Price",
-      "BODY": "Leverage and liquidations are determined based on the on-chain oracle price. The oracle price aggregates price data from multiple exchanges, protecting you from events like flash crashes."
+      "BODY": "Leverage and liquidations are determined based on the onchain oracle price. The oracle price aggregates price data from multiple exchanges, protecting you from events like flash crashes."
     },
     "ORDER_AMOUNT": {
       "TITLE": "Order Amount",
@@ -166,6 +203,18 @@
     "PARTIAL_CLOSE_TAKE_PROFIT": {
       "TITLE": "Take Profit is a Partial Close",
       "BODY": "Your take profit is not configured to close your entire position. This could be because you set a custom amount, or because you have changed your position size after adding this trigger."
+    },
+    "PORTFOLIO_VALUE": {
+      "TITLE": "Portfolio Value",
+      "BODY": "Total equity value of your account."
+    },
+    "POSITION_MARGIN": {
+      "TITLE": "Position Margin",
+      "BODY": "The amount of collateral backing the position."
+    },
+    "POSITION_LEVERAGE": {
+      "TITLE": "Position Leverage",
+      "BODY": "Leverage changes the multiplier on your gains or losses. Increasing your leverage increases how much you would gain / lose on a trade with the same price movement."
     },
     "POST_ONLY": {
       "TITLE": "Post-Only",
@@ -187,13 +236,17 @@
       "TITLE": "Reduce-Only",
       "BODY": "Reduce-Only prevents an order from changing the side of your position (long to short, or short to long). An order with Reduce-Only set will automatically resize and cancel itself as your position changes."
     },
-    "REDUCE_ONLY_TIMEINFORCE_IOC_FOK": {
+    "REDUCE_ONLY_TIMEINFORCE_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only is only available if Time in Force is set to IOC or FOK."
+      "BODY": "Reduce-Only is only available if Time in Force is set to IOC."
     },
-    "REDUCE_ONLY_EXECUTION_IOC_FOK": {
+    "REDUCE_ONLY_EXECUTION_IOC": {
       "TITLE": "Reduce-Only",
-      "BODY": "Reduce-Only is only available if Execution is set to IOC or FOK."
+      "BODY": "Reduce-Only is only available if Execution is set to IOC."
+    },
+    "REWARDS_EARNED": {
+      "TITLE": "Rewards Earned",
+      "BODY": "Earn rewards when you trade on dYdX."
     },
     "SPREAD": {
       "TITLE": "Spread",
@@ -223,6 +276,10 @@
       "TITLE": "Take Profit",
       "BODY": "Allows traders to set targets and protects profits on positions by specifying a price at which to close an open position for profit."
     },
+    "TARGET_LEVERAGE": {
+      "TITLE": "Target Leverage",
+      "BODY": "Target Leverage set to {TARGET_LEVERAGE}×, which determines the amount of margin used for your next order."
+    },
     "TICK_SIZE": {
       "TITLE": "Tick Size",
       "BODY": "Tick size is the minimum price movement on this market."
@@ -244,7 +301,7 @@
       "BODY": "Total profit / loss if you were to fully close the remainder of your current position at the current oracle price. Resets if you close your position or change position sides (long to short, or vice versa)."
     },
     "REWARD_HISTORY": {
-        "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
+      "BODY": "Time is displayed in Coordinated Universal Time (UTC)"
     }
   },
   "DEPOSIT": {
@@ -252,13 +309,25 @@
       "TITLE": "Available",
       "BODY": "You are eligible! Deposit at least {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} to enable gasless deposit."
     },
+    "BRIDGE_FEES_DEPOSIT": {
+      "TITLE": "Bridge Fees",
+      "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this deposit."
+    },
     "DISABLED_GASLESS_DEPOSITS": {
       "TITLE": "Unavailable",
       "BODY": "Gasless deposits are temporarily unavailable. Don't worry, they'll be back soon!"
     },
+    "GAS_FEES_DEPOSIT": {
+      "TITLE": "Gas Fees",
+      "BODY": "Gas fees are transaction fees on the source chain, in this case {SOURCE_CHAIN}."
+    },
     "GASLESS_DEPOSITS": {
       "TITLE": "Gasless Deposits",
       "BODY": "dYdX will cover your gas fees if you deposit {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} or more. You are eligible for one gasless deposit every three days. Gasless deposits are subject to rules."
+    },
+    "LOWEST_FEE_DEPOSITS": {
+      "TITLE": "Lowest Fee Deposits",
+      "BODY": "USDC deposits on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
     },
     "MINIMUM_DEPOSIT_AMOUNT": {
       "TITLE": "Minimum Deposit Amount",
@@ -279,10 +348,28 @@
       "BODY": "This is the gas cost of the deposit transaction, paid to Ethereum miners."
     }
   },
+  "TRIGGER_ORDERS": {
+    "UNEQUAL_ORDER_SIZES": {
+      "TITLE": "Unequal Order Sizes",
+      "BODY": "Your take profit and stop loss orders have different order sizes. To make edits to the order size, please cancel and re-make the orders."
+    }
+  },
   "WITHDRAW": {
     "FAST_WITHDRAW_FEE": {
       "TITLE": "Fast Withdraw Fee",
       "BODY": "Fast withdraws are sent immediately and dYdX will cover the gas costs in exchange for a fee. For fee-free withdraws, please use a slow withdraw (you pay your own gas costs and will have to wait for Layer 2 confirmation)."
+    },
+    "GAS_FEES": {
+      "TITLE": "Gas Fees",
+      "BODY": "Gas fees are transaction fees on the source chain, in this case dYdX."
+    },
+    "LOWEST_FEE_WITHDRAWALS": {
+      "TITLE": "Lowest Fee Withdrawals",
+      "BODY": "USDC withdrawals on {LOWEST_FEE_TOKEN_NAMES} have the lowest fees."
+    },
+    "BRIDGE_FEES": {
+      "TITLE": "Bridge Fees",
+      "BODY": "Bridge fees are paid to other protocols in order to complete the bridging, transferring, and swapping required for this withdrawal."
     },
     "MINIMUM_AMOUNT_RECEIVED": {
       "TITLE": "Minimum Amount Received",
@@ -291,6 +378,12 @@
     "WITHDRAW_TYPES": {
       "TITLE": "Withdraw Types",
       "BODY": "dYdX supports two types of withdraws from Layer 2. Fast withdraws carry a small fee but do not require gas and are sent immediately. Slow withdraws are free but require two steps, take much longer, and the user will have to pay their own gas fees."
+    }
+  },
+  "STAKE": {
+    "VALIDATOR_SELECTION": {
+      "TITLE": "Selected Validator",
+      "BODY": "The validator is selected from a pre-configured set of unslashed validators based on lowest stakeweight."
     }
   },
   "EMAIL_NOTIFICATIONS": {
@@ -305,10 +398,39 @@
       "BODY": "To ensure the security of the protocol, dYdX Chain validators delay the settlement of dYdX Chain DYDX."
     }
   },
+  "TRADE_CHART": {
+    "OHLC": {
+      "TITLE": "OHLC",
+      "BODY": "Enable or disable OHLC (open-high-low-close) data via mid-price. Disabling this will only display OHLC data from historical trades."
+    }
+  },
   "NEW_MARKET_WIDGET": {
     "REFERENCE_PRICE": {
       "TITLE": "Reference Price",
       "BODY": "The Reference Price is the rolling 30 day average of the market's price and is used as an input to automatically calculate the market's parameters on dYdX Chain. The Reference Price should approximately be the same as the market's current price (i.e. round down to the same powers of 10)."
+    },
+    "SELF_REPORTED_CMC": {
+      "BODY": "This value is self reported on CoinMarketCap"
+    }
+  },
+  "VAULT": {
+    "ESTIMATED_AMOUNT_RECEIVED": {
+      "BODY": "The estimated amount to receive when withdrawing, which is withdrawal amount minus estimated slippage amount. This amount is an estimation based on the current conditions. The actual amount may be different based on the actual conditions at the execution time."
+    },
+    "ESTIMATED_SLIPPAGE": {
+      "BODY": "The estimated amount of slippage when withdrawing. The slippage comes from the vault's need to update the current positions to free up margin in order to meet the withdrawal amount. This amount is an estimation based on the current conditions. The actual amount may be different based on the actual conditions at the execution time."
+    },
+    "AVAILABLE_TO_WITHDRAW": {
+      "BODY": "The amount you can withdraw, which is your vault balance minus any amount that's locked up for new market listings."
+    },
+    "YOUR_VAULT_BALANCE": {
+      "BODY": "The current value of your deposits. This is calculated based on the vault's current equity and positions."
+    },
+    "YOUR_ALL_TIME_PNL": {
+      "BODY": "The total PnL over time. This includes historical PnL of your vault deposits."
+    },
+    "VAULT_APR": {
+      "BODY": "Est. APR is the past month’s returns annualized. Actual returns depend on uncertain future earnings (protocol revenue sharing and P&L), and are not guaranteed. {LEARN_MORE}"
     }
   }
 }

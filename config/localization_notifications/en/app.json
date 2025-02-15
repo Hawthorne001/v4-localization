@@ -4,17 +4,45 @@
       "TITLE": "Reward Earned",
       "BODY": "You have earned {BLOCK_REWARD_AMOUNT} {TOKEN_NAME} trading reward."
     },
+    "CONDITIONAL_ORDERS_REVAMP": {
+      "TITLE": "Refreshed conditional order experience!",
+      "BODY": "Conditional orders on dYdX Chain have been completely revamped! Now more reliable, intuitive, and performant than ever. Check out more details {TWITTER_LINK}."
+    },
     "DELEVERAGED": {
       "TITLE": "Position Deleveraged",
       "BODY": "Your {SIDE} position on {MARKET} has been deleveraged."
+    },
+    "DISCOVERY_PROGRAM": {
+      "TITLE": "Earn up to $200 in 30 Minutes!",
+      "BODY": "Make your trading journey the best it can be by participating in a user interview and sharing feedback. Spots are limited so click {HERE_LINK} to sign up or learn more!"
     },
     "FINAL_SETTLEMENT": {
       "TITLE": "Position Settled",
       "BODY": "{MARKET} has closed. Your {SIDE} position on {MARKET} has reached final settlement."
     },
+    "FOK_DEPRECATION": {
+      "TITLE": "FOK orders deprecated",
+      "BODY": "Fill-or-Kill (FOK) orders have been deprecated. All other order types continue to be available."
+    },
+    "IN_APP_STAKING_LIVE": {
+      "TITLE": "You can now stake DYDX!",
+      "BODY": "Receive USDC rewards."
+    },
     "INCENTIVES_SEASON_BEGUN": {
-      "TITLE": "Season {SEASON_NUMBER} launch incentives program has begun!",
-      "BODY": "In season {PREV_SEASON_NUMBER}, most traders earned at least {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
+      "TITLE": "Season {SEASON_NUMBER} has begun!",
+      "BODY": "In season {PREV_SEASON_NUMBER}, median rewards earned were {DYDX_AMOUNT} DYDX (~{USDC_AMOUNT} USDC)!"
+    },
+    "INCENTIVES_SEASON_ENDED": {
+      "TITLE": "Season {SEASON_NUMBER} has ended!",
+      "BODY": "Thanks for participating in the launch incentives program. Stay tuned for updates on future reward programs!"
+    },
+    "ISOLATED_MARGIN_LIVE": {
+      "TITLE": "Isolated Margin is live",
+      "BODY": "Isolated Margin is now live! To learn more, head {LEARN_MORE}."
+    },
+    "REWARDS_DISTRIBUTED": {
+      "TITLE": "Season {SEASON_NUMBER} launch rewards have been distributed!",
+      "BODY": "Season {SEASON_NUMBER} rewards +{DYDX_AMOUNT} DYDX"
     },
     "OFFSETTING": {
       "TITLE": "Position Offsetting",
@@ -56,6 +84,10 @@
       "TITLE": "Fast Withdrawal Succeeded",
       "BODY": "Your fast withdrawal of {AMOUNT} {ASSET} has been confirmed."
     },
+    "LIQUIDITY_TIER_UPDATE_SOL_USD": {
+      "TITLE": "Trade SOL-USD with 20x Leverage",
+      "BODY": "SOL-USD and all Isolated Markets are now available to trade with up to 20x leverage."
+    },
     "RELEASE_REWARDS_AND_FULL_TRADING": {
       "TITLE": "Rewards and trading are live on dYdX Chain!",
       "BODY": "Full trading is live on dYdX Chain! This includes staking rewards, trading rewards, and the 6-month launch incentives program by Chaos Labs. Learn more {DOS_BLOGPOST} and {TRADING_BLOGPOST} (third-party link)."
@@ -67,6 +99,119 @@
     "SLOW_WITHDRAWAL_SUCCESS": {
       "TITLE": "Slow Withdrawal Succeeded",
       "BODY": "Your withdrawal of {AMOUNT} {ASSET} has been confirmed."
+    },
+    "STOP_LOSS_TRIGGER_CREATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger is being created at {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {NEW_VALUE} could not be created."
+    },
+    "STOP_LOSS_TRIGGER_CREATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {NEW_VALUE} has been created."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger is being created at {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {NEW_VALUE} could not be created."
+    },
+    "TAKE_PROFIT_TRIGGER_CREATED": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {NEW_VALUE} has been created."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger is being updated to {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {OLD_VALUE} could not be replaced."
+    },
+    "STOP_LOSS_TRIGGER_UPDATED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger will now trigger at {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger is being updated to {NEW_VALUE}."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {OLD_VALUE} could not be replaced."
+    },
+    "TAKE_PROFIT_TRIGGER_UPDATED": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger will now trigger at {NEW_VALUE}."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {OLD_VALUE} is being removed."
+    },
+    "STOP_LOSS_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {OLD_VALUE} could not be cancelled."
+    },
+    "STOP_LOSS_TRIGGER_REMOVED": {
+      "TITLE": "Stop Loss",
+      "BODY": "Your stop loss trigger at {OLD_VALUE} has been removed."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {OLD_VALUE} is being removed."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVING_ERROR": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {OLD_VALUE} could not be cancelled."
+    },
+    "TAKE_PROFIT_TRIGGER_REMOVED": {
+      "TITLE": "Take Profit",
+      "BODY": "Your take profit trigger at {OLD_VALUE} has been removed."
+    },
+    "TOP_100_WALLET_ADDRESSES": {
+      "TITLE": "Want more support?",
+      "BODY": "Thank you for being a large trader on dYdX! The team would like to offer you a higher level of personalized support and the opportunity to connect directly with them.",
+      "ACTION": "Get in touch →"
+    },
+    "TWITTER_DYDX_200B_GIVEAWAY": {
+      "TITLE": "$20K giveaway",
+      "BODY": "To celebrate surpassing 200B in cumulative trading volume, dYdX is running a Twitter giveaway, where you have the opportunity to claim $200. 100 winners will be selected based on a random selection mechanism after August 16, 2024, 23:59 UTC {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET} market wound down",
+      "BODY": "On {DATE}, the {MARKET} market went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
+    },
+    "MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live proposal to wind down {MARKET} market",
+      "BODY": "There is currently a live proposal to wind down the {MARKET} market. If passed, the {MARKET} market will enter final settlement on {DATE}. Existing positions will be closed and open orders will be canceled. You can find more information regarding the proposal {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN": {
+      "TITLE": "{MARKET_1} and {MARKET_2} markets wound down",
+      "BODY": "On {DATE}, the {MARKET_1} and {MARKET_2} markets went through final settlement. Existing positions have been closed and open orders have now been canceled. You can find more information regarding the final settlement {HERE_LINK}."
+    },
+    "TWO_MARKET_WIND_DOWN_PROPOSAL": {
+      "TITLE": "Live proposal to wind down {MARKET_1} and {MARKET_2} markets",
+      "BODY": "There is currently a live proposal to wind down the {MARKET_1} and {MARKET_2} markets. If passed, the {MARKET_1} and {MARKET_2} markets will enter final settlement on {DATE}. Existing positions will be closed and open orders will be canceled. You can find more information regarding the proposal {HERE_LINK}."
+    },
+    "MARKET_PARAM_UPDATE": {
+      "TITLE": "Live proposal to update {MARKET} parameters",
+      "BODY": "There is currently a live proposal to update the parameters of {MARKET} market. If passed, the {MARKET} market will have Coinbase Pro {MARKET} as the only oracle source. You can find more information regarding the proposal {HERE_LINK}."
+    },
+    "TRUMPWIN_MARKET_LAUNCH": {
+      "TITLE": "Trade the U.S. presidential election!",
+      "BODY": "{MARKET} is now live. This market will settle at $1 if Donald J. Trump wins the 2024 election. Otherwise, it will settle at $0.001."
+    },
+    "KEPLR_SUPPORT": {
+      "TITLE": "dYdX now supports Keplr!",
+      "BODY": "You can now connect and use dYdX with your Keplr wallet! Try it now."
+    },
+    "PHANTOM_SUPPORT": {
+      "TITLE": "dYdX now supports Phantom!",
+      "BODY": "You can now connect and use dYdX with your Phantom wallet! Try it now."
     }
   }
 }

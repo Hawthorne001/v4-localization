@@ -8,13 +8,13 @@
         "15MIN": "15 min",
         "30MIN": "30 min",
         "1H": "1 Std.",
-        "4H": "4 Std.",
+        "4H": "4 h",
         "8H": "8 Std.",
         "24H": "24 Std.",
         "1D": "1 T",
         "7D": "7 T",
-        "30D": "30 T",
-        "90D": "90 T",
+        "30D": "30 d",
+        "90D": "90 t",
         "1DAY": "1 T",
         "1WEEK": "1 W",
         "1MONTH": "1 M"
@@ -23,18 +23,19 @@
       "ACTIVITIES": "Aktivitäten",
       "ADD_NEW_WALLET": "Neue Wallet hinzufügen",
       "ALERTS": "Warnhinweise",
-      "AMOUNT_AND_FILLED": "Betrag \/ Ausgeführt",
+      "AMOUNT_AND_FILLED": "Betrag \/ Erfüllt",
       "AMOUNT_RATE": "Betrag \/ Kurs",
       "AUTHENTICATE_WITH_FACE_ID": "Authentifizieren Sie sich per Face-ID",
       "AUTHENTICATE_WITH_TOUCH_ID": "Authentifizieren Sie sich per Touch-ID",
       "AUTHENTICATE_WITH_BIOMETRICS": "Authentifizieren Sie sich per Biometrie",
       "AUTHENTICATE_TO_PROCEED": "Authentifizieren Sie sich, um auf Ihr dYdX-Konto zuzugreifen",
-      "CANDLES": "Candles",
+      "CANDLES": "Kerzen",
       "CONNECT_WALLET_TEXT": "Stellen Sie sicher, dass das richtige Konto in Ihrer Wallet ausgewählt ist.",
       "COUNTRY": "Land",
       "DESTINATION": "Reiseziel",
       "DOCS": "Dokumente",
-      "EARN": "Sie werden verdienen",
+      "DONT_SHOW_AGAIN": "Mir in Zukunft nicht mehr anzeigen",
+      "EARN": "Sie werden verdienen können",
       "ERROR": "Fehler",
       "FAILED": "Fehlgeschlagen",
       "FOUNDATION": "Grundlage",
@@ -48,10 +49,14 @@
       "INSTALL": "Installieren",
       "INSTALLED": "Installiert",
       "IOS_APP_BETA": "iOS App Beta",
+      "ISOLATED_POSITIONS_COMING_SOON": "Einzelne Positionen bald auch auf Mobilgeräten verfügbar",
+      "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders für einzelne Positionen sind bald auf Mobilgeräten verfügbar.",
+      "LAUNCH_ON_WEB": "Start im Web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Ranglisten (Leaderboards)",
       "LEARN_MORE_ABOUT_WALLETS": "Mehr über Wallets",
       "LINE": "Trendlinie",
+      "LIQ_ORACLE": "Liq. \/ Oracle",
       "LOSERS": "Verlierer",
       "MANAGE": "Verwalten",
       "MARKET_CAP_SHORT": "M. Cap",
@@ -60,9 +65,11 @@
       "NETWORK": "Netzwerk",
       "NEWS": "Nachrichten",
       "NICE": "Sehr schön!",
+      "NOT_NOW": "Nicht jetzt",
       "NO_RESULTS": "Keine Ergebnisse",
       "OF": "{ITEM1} von {ITEM2}",
       "OK": "OK",
+      "PAY_GAS_WITH": "Gas Bezahlen Mit",
       "PLACEHOLDER_NO_POSITIONS": "Sie haben keine offenen Positionen",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "Sie müssen sich anmelden, um Ihre Positionen anzuzeigen",
       "PLACEHOLDER_NO_ORDERS": "Sie haben keine offenen Orders",
@@ -80,7 +87,7 @@
       "PRICE_TYPE": "Preis \/ Art",
       "PROFIT_AND_LOSS": "G&V",
       "PROFIT_AND_LOSS_30D": "30T G&V",
-      "PROFIT_AND_LOSS_WITH_DURATION": "G&V für {PERIOD}",
+      "PROFIT_AND_LOSS_WITH_DURATION": "{PERIOD} G&V",
       "READY": "bereit",
       "RECEIVE": "Erhalten",
       "RECENT": "Kürzlich",
@@ -135,11 +142,11 @@
       "AFFILIATE_REFERRAL_NOT_QUALIFIED": "Nur Neukunden können Rabatte von Weiterempfehlungen erhalten.",
       "AFFILIATE_TEXT": "hat Sie eingeladen, um auf der modernsten & offensten Plattform mit dem Trading zu beginnen.",
       "CREATE_ACCOUNT_TEXT": "Benutzername und E-Mail sind optional, und können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
-      "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mailadresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
+      "CREATE_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mail-Adresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
       "CREATE_ACCOUNT_ADDITIONAL": "Ihre Informationen werden von dYdX ausschließlich zur Verbesserung des Produkterlebnisses verwendet, nicht zu Marketingzwecken.",
       "EDIT_ACCOUNT": "Konto bearbeiten",
       "EDIT_ACCOUNT_TEXT": "Benutzername und E-Mail sind optional, und können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
-      "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mailadresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
+      "EDIT_ACCOUNT_TEXT_USERNAME_REQUIRED": "Der Benutzername ist erforderlich und die E-Mail-Adresse ist optional. Sie können jederzeit in Ihrem Profil geändert oder aktualisiert werden.",
       "INFO": "Ihre Informationen werden von dYdX ausschließlich zur Verbesserung Ihres Produkterlebnisses verwendet und nicht weitergegeben.",
       "MISSING_COUNTRY_DESC": "Bitte geben Sie Ihr Aufenthaltsland an. Dies kann später nicht geändert werden.",
       "NO_FUTURE_ACCESS_TITLE": "Ich befinde mich nicht in einem eingeschränkten Gebiet",
@@ -154,6 +161,7 @@
       "SCAN_QR_CODE_ERROR": "Code nicht erkannt",
       "SCAN_QR_CODE_SHORT": "QR scannen",
       "SELECT_WALLET": "Wallet auswählen",
+      "SWITCH_TO_WALLET": "Bitte öffnen Sie Ihre {WALLET} App, um fortzufahren.",
       "SELECT_WALLET_TEXT": "Wir haben die folgenden Wallet-Optionen gefunden, die dYdX unterstützen.",
       "UNDERSTAND_RISKS_TITLE": "Die Risiken sind mir bekannt",
       "USERNAME_REQUIRED": "Benutzername ist erforderlich",
@@ -161,9 +169,9 @@
       "YOU_AGREE_TO_TERMS_NEXT_PAGE": "Im nächsten Schritt müssen Sie unsere {TERMS_LINK} und {PRIVACY_POLICY_LINK} durchlesen und ihnen zustimmen.",
       "WALLET_MISMATCH": "Falsche Wallet",
       "NETWORK_MISMATCH": "Falsches Netzwerk",
-      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um.",
+      "SWITCH_WALLET": "Stellen Sie Ihr Wallet bitte auf {WALLET_ADDR} um",
       "WALLET_ACCOUNT_ERROR": "Kann kein Konto erhalten",
-      "ENTER_CODE": "Geben Sie den Decodierungsschlüssel ein"
+      "ENTER_CODE": "Geben Sie den Bestätigungscode ein"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Profil erstellen"
@@ -174,9 +182,9 @@
       "DEPOSIT_GAS_FREE": "Diese Einzahlung ist gasfrei!",
       "DEPOSIT_CONNECT": "Sie werden eine Verbindungsanfrage erhalten.",
       "DEPOSIT_OVERVIEW": "Sie werden eine Verbindungsanfrage und zwei Transaktionsanfragen erhalten.",
-      "DEPOSIT_AVAILABLE": "Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum {DOLLAR_AMOUNT}von  . dYdX übernimmt die Gas-Gebühren für diese Einzahlung. Ihr Limit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
+      "DEPOSIT_AVAILABLE": "Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {DOLLAR_AMOUNT}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. Ihr Limit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
       "DEPOSIT_SUBJECT_TO_RULES": "Gemäß diesen Regeln",
-      "MINIMUM_DEPOSIT_MET": "Sehr schön! Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von  {GASLESS_DEPOSIT_THRESHOLD}{SYMBOL}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung.{DEPOSIT_SUBJECT_TO_RULES}",
+      "MINIMUM_DEPOSIT_MET": "Sehr schön! Ihre Einzahlung erfüllt das gasfreie Einzahlungsminimum von {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL}. dYdX übernimmt die Gas-Gebühren für diese Einzahlung. {DEPOSIT_SUBJECT_TO_RULES}",
       "MINIMUM_DEPOSIT_UNMET": "Ihr Einzahlungsbetrag liegt unterhalb des gasfreien Einzahlungsminimums. Wenn Sie mehr als {GASLESS_DEPOSIT_THRESHOLD} {SYMBOL} einzahlen, zahlt dYdX die Gas-Kosten für diese Einzahlung. Sie können auch mit dieser Einzahlung fortfahren und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_ETH_DEPOSITS_NATIVE": "Gasfreie Einzahlungen sind für ETH nicht verfügbar. Sie können Ihre ETH auf 1inch oder Uniswap in WETH umtauschen und gasfreie WETH-Einzahlungen vornehmen oder direkt ETH einzahlen und Ihre eigenen Gas-Kosten bezahlen. {DEPOSIT_SUBJECT_TO_RULES}",
       "GASLESS_DEPOSIT_REACHED_LIMIT": "Gasfreie Einzahlung ist nicht verfügbar. Ihr gasfreies Einzahlungslimit wird alle drei Tage zurückgesetzt. {DEPOSIT_SUBJECT_TO_RULES}",
@@ -237,33 +245,42 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Einheit der Verfallszeit auswählen.",
       "SUBMITTING_ORDER": "Wird übermittelt",
       "SUBMITTING_ORDER_DESC": "Ihre Order wird übermittelt.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} Stornierung Auftrag fehlgeschlagen",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} Abbruch der Order fehlgeschlagen",
       "CANCELING_ORDER": "Abbrechen",
       "CANCELING_ORDER_DESC": "Ihre Order an {SIDE} {SIZE} {MARKET} wird storniert.",
       "UNREALIZED": "Nicht ausgeführt",
       "MODE": {
         "SELECT_PREFERENCE": "Einstellung auswählen",
         "MODE_TO_BE_USED": "Dieser Modus gilt für alle Trades",
-        "CHANGE_SETINGS": "Ändern Sie dies in Ihrem Profil › Einstellungen",
-        "SIMPLE": "Einfach",
+        "CHANGE_SETINGS": "Ändern Sie dies in den Einstellungen",
+        "SIMPLE": "Standard",
         "ADVANCED": "Fortgeschritten",
         "EASIER": "Benutzerfreundlicher",
         "POWERFUL": "Leistungsfähiger",
         "TRADE_BOX": "Modus",
-        "SELECT_MODE": "Auswahlmodus",
+        "SELECT_MODE": "Modus auswählen",
         "SWAP": "Swap",
-        "SIMPLE_AND_EASIER": "Einfach und benutzerfreundlich",
+        "SIMPLE_AND_EASIER": "Fokussiert und doch leistungsfähig",
         "PRO": "Pro",
-        "FULLY_FEATURED": "Komplett ausgestattet"
+        "FULLY_FEATURED": "Komplett ausgestattet",
+        "SWITCH_TO_PRO": "Zu Pro wechseln"
       },
       "YOUR_POSITION": "Ihre {TOKEN}-Position",
       "MARGIN_RISK": "Margenrisiko",
       "HIGH": "Hoch",
+      "HIGH_RISK": "Hohes Risiko",
       "MEDIUM": "Medium",
+      "MEDIUM_RISK": "Mittleres Risiko",
       "LOW": "Niedrig",
+      "LOW_RISK": "Geringes Risiko",
       "SWAP": "Swap",
       "RISK": "Risiko",
+      "SLIDE_TO_BUY": "Zu Long schieben",
+      "SLIDE_TO_SELL": "Zu Short scrollen",
+      "SLIDE_TO_CLOSE": "Zum Schließen wischen",
       "FROM_TO": "von {TOKEN_FROM} bis {TOKEN_TO}",
-      "CLOSING_POSITION": "{TOKEN_FROM}-Position",
+      "CLOSING_POSITION": "{TOKEN_FROM} Position",
       "PLACE_ANOTHER_TRADE": "Platzieren Sie einen weiteren Trade",
       "US_DOLLAR": "US-Dollar",
       "CONFIRM_TRADE": "Handel bestätigen",
@@ -295,12 +312,18 @@
         "TOP_LOSERS": "Top Verlierer"
       },
       "SWAP_POSITION": {
-        "OPEN": "{TOKEN}-Position öffnen",
-        "CLOSE": "{TOKEN}-Position schließen",
-        "INCREASE": "{TOKEN}-Position erhöhen",
-        "DECREASE": "{TOKEN}-Position reduzieren",
-        "CROSS_SIDE": "{TOKEN}-Position ändern zu {SIDE}"
+        "OPEN": "Position {TOKEN} öffnen",
+        "CLOSE": "Position {TOKEN} schließen",
+        "INCREASE": "Position {TOKEN} erhöhen",
+        "DECREASE": "Position {TOKEN} reduzieren",
+        "CROSS_SIDE": "Position {TOKEN} ändern zu {SIDE}"
       }
+    },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Nur Schließmodus",
+      "CLOSE_ONLY_BODY": "Da Sie Ihren Wohnsitz offenbar in einer Gerichtsbarkeit haben oder von einer Gerichtsbarkeit aus handeln, die gegen unsere Nutzungsbedingungen verstößt, oder in Aktivitäten verwickelt sind, die gegen unsere Nutzungsbedingungen verstoßen, wurden Sie gesperrt. Sie haben bis {DATE} zum Auszahlen Ihrer Gelder, bevor Ihr Zugriff auf die App gesperrt ist. Bitte besuchen Sie die Weboberfläche, um die nächsten Schritte zu sehen. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}.",
+      "PERMANENTLY_BLOCKED_TITLE": "Permanent blockiert",
+      "PERMANENTLY_BLOCKED_BODY": "Da Sie in einer Gerichtsbarkeit ansässig zu sein scheinen oder von einer Gerichtsbarkeit aus zu handeln, die gegen unsere Nutzungsbedingungen verstößt und Ihnen zuvor die Möglichkeit gegeben wurde, Umstände zu beheben, die zu Einschränkungen für Ihr Konto geführt haben, wurden Sie dauerhaft gesperrt. Wenn Sie meinen, dass ein Fehler aufgetreten ist, wenden Sie sich bitte an den Support unter {HELP_LINK}."
     },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Konto eingeschränkt",
@@ -314,7 +337,7 @@
       "PROMOTION": "Promotion"
     },
     "CAMERA": {
-      "ENABLE_CAMERA": "Kamerazugriff aktivieren",
+      "ENABLE_CAMERA": "Weiter",
       "ALLOW_ACCESS": "Erlauben Sie den Zugriff auf Ihre Kamera.",
       "ENABLE_CAMERA_TO_SCAN": "Aktivieren Sie den Kamerazugriff zum Scannen des QR-Codes"
     },
@@ -326,8 +349,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Bitte aktualisieren Sie die Benachrichtigungen in Ihren App-Einstellungen.",
       "PERMIT": "Erlauben",
       "GO_TO_SETTINGS": "Gehen Sie zu Einstellungen",
-      "PRIMER_TITLE": "Push-Benachrichtigungen erhalten",
-      "PRIMER_MESSAGE": "Aktivieren Sie die Push-Benachrichtigungen, um Warnhinweise zu erhalten, wenn sich Ihr Transaktionsstatus ändert."
+      "PRIMER_TITLE": "Benachrichtigungen aktivieren",
+      "PRIMER_MESSAGE": "Bleiben Sie über Ihre Orders und Positionen auf dem Laufenden.",
+      "ENABLED": "Benachrichtigungen aktiviert",
+      "DISABLED": "Benachrichtigungen deaktiviert",
+      "DISABLED_BODY": "Schalten Sie sie in den Einstellungen ein."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Schauen Sie sich mein Profil auf @dYdX an!",
@@ -336,7 +362,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Wallet Adresse eingeben",
-      "ENTER_TRANSFER_AMOUNT": "Transferbetrag eingeben"
+      "ENTER_TRANSFER_AMOUNT": "Transferbetrag eingeben",
+      "REQUIRED_FOR_CEX": "Für zentralisierte Börsen erforderlich"
     },
     "FIAT_ONRAMP": {
       "NEW": "Neu!",
@@ -359,6 +386,8 @@
       "NO_GAS_TITLE": "Unzureichendes Wallet-Guthaben zur Deckung der Gasgebühr",
       "NO_GAS_BODY": "Bitte nehmen Sie zuerst eine kleine Einzahlung auf Ihr dYdX-Konto vor, um Ihr Wallet aufzufüllen.",
       "THEME": "Thema",
+      "NOTIFICATIONS": "Benachrichtigungen",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "In-App-Benachrichtigungen anzeigen",
       "DIRECTION_COLOR_PREFERENCE": "Farbpräferenz",
       "DARK": "Dunkel",
       "CLASSIC_DARK": "Classic Dark",
@@ -380,22 +409,57 @@
       "CHECK_STATUS_TITLE": "Einzahlungsstatus prüfen ...",
       "CHECK_STATUS_TEXT": "Bitte warten",
       "IN_PROGRESS_TITLE": "Einzahlung ist in Bearbeitung",
-      "IN_PROGRESS_TEXT": "Ihre Einzahlung von  {AMOUNT_ELEMENT}wurde übermittelt. Dies kann einige Minuten dauern.",
+      "IN_PROGRESS_TEXT": "Ihre Einzahlung von {AMOUNT_ELEMENT} wurde übermittelt. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Einzahlung abgeschlossen",
-      "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!"
+      "COMPLETED_TEXT": "Ihre Einzahlung wurde bestätigt. Ihre Gelder sind jetzt für den sofortigen Handel auf dYdX verfügbar. Jetzt los!",
+      "COMPLETED_TEXT_SHORT": "Ihre Einzahlung wurde abgeschlossen.",
+      "MOBILE_WALLET_REQUIRED": "Bitte verbinden Sie Ihr mobiles Wallet, um Einzahlungen zu tätigen."
     },
     "V4_WITHDRAWAL": {
       "CHECK_STATUS_TITLE": "Auszahlungsstatus prüfen ...",
       "CHECK_STATUS_TEXT": "Bitte warten",
       "IN_PROGRESS_TITLE": "Auszahlung läuft",
-      "IN_PROGRESS_TEXT": "Ihre Auszahlung von {AMOUNT_ELEMENT}wurde vorgenommen. Dies kann einige Minuten dauern.",
+      "IN_PROGRESS_TEXT": "Ihre Auszahlung von {AMOUNT_ELEMENT} wurde vorgenommen. Dies kann einige Minuten dauern.",
       "COMPLETED_TITLE": "Auszahlung abgeschlossen",
       "COMPLETED_TEXT": "Ihre Auszahlung wurde abgeschlossen."
     },
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer übermittelt",
-      "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT}w{TOKEN}urde übermittelt"
+      "COMPLETED_TEXT": "Ihr Transfer von {AMOUNT_ELEMENT} {TOKEN} wurde übermittelt"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Problem melden",
+      "LOADING_TITLE": "Logdateien werden geladen...",
+      "LOADING_COMPLETED_TITLE": "Protokolldatei erstellt",
+      "LOADING_ERROR_TITLE": "Logdatei konnte nicht erstellt werden",
+      "EMAIL_SUBJECT": "Problembericht",
+      "EMAIL_BODY": "Bitte beschreiben Sie das Problem, mit dem Sie konfrontiert sind:",
+      "CHOOSER_TITLE": "App-Protokoll senden"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Vorhersagemärkte",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Hebelwirkung auf die US-Wahl",
+      "WITH_PREDICTION_MARKETS": "mit Vorhersagemärkten",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Die Prognosemärkte werden bei 1 USD abgerechnet, wenn das Ereignis wie vorhergesagt eintritt. Andernfalls werden sie bei 0 USD abgerechnet.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Hebelwirkung auf die Resultate von Ereignissen",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"Zu einer Vielzahl von Themen, einschließlich Politik, Sport, Popkultur und mehr.",
+      "SETTLEMENT_OUTCOMES_TITLE": "0 $ oder 1 $ Abrechnung",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Der Markt wird automatisch bei 1 USD abgerechnet, wenn das Ereignis eintritt. Andernfalls wird bei ~$0 abgerechnet. Der Preis entspricht der prozentualen Wahrscheinlichkeit, dass das Ergebnis eintritt."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Erfordert eine Einzahlung {DEPOSIT_AMOUNT} bei MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault hat einen geschätzten {APR} Jahreszins"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "Dies ist der maximale Betrag, den Sie mit Ihrer Einzahlung erhalten können. Es ist nicht der Betrag, den Sie einzahlen oder abheben können. Ihre Kaufkraft kann sich schnell ändern und kann sogar dann positiv sein, wenn Sie Verluste machen.",
+        "RISK_TOOLTIP": "Dies ist der Prozentsatz Ihrer Einzahlung, der als Marge durch Ihre offenen Positionen gehalten wird. Dies kann sich schnell ändern, wenn sich der Marktpreis ändert."
     }
+  },
+  "RATE_APP": {
+    "YES": "Ja",
+    "NO": "Nicht wirklich",
+    "DEFER": "Verwerfen",
+    "QUESTION": "Sind Sie mit dYdX zufrieden?"
   },
   "FORCED_UPDATE": {
     "TITLE": "Aktualisierung",

@@ -34,6 +34,7 @@
       "COUNTRY": "Country",
       "DESTINATION": "Destination",
       "DOCS": "Docs",
+      "DONT_SHOW_AGAIN": "Don’t show me this again",
       "EARN": "You will earn",
       "ERROR": "Error",
       "FAILED": "Failed",
@@ -48,10 +49,14 @@
       "INSTALL": "Install",
       "INSTALLED": "Installed",
       "IOS_APP_BETA": "iOS App Beta",
+      "ISOLATED_POSITIONS_COMING_SOON": "Isolated positions coming soon to mobile",
+      "ISOLATED_POSITION_ORDERS_COMING_SOON": "Orders for isolated positions coming soon to mobile",
+      "LAUNCH_ON_WEB": "Launch on web",
       "LAYER_2": "Layer 2",
       "LEADERBOARDS": "Leaderboards",
       "LEARN_MORE_ABOUT_WALLETS": "Learn more about wallets",
       "LINE": "Line",
+      "LIQ_ORACLE": "Liq. / Oracle",
       "LOSERS": "Losers",
       "MANAGE": "Manage",
       "MARKET_CAP_SHORT": "M. Cap",
@@ -60,9 +65,11 @@
       "NETWORK": "Network",
       "NEWS": "News",
       "NICE": "Nice!",
+      "NOT_NOW": "Not now",
       "NO_RESULTS": "No results",
       "OF": "{ITEM1} of {ITEM2}",
       "OK": "OK",
+      "PAY_GAS_WITH": "Pay Gas With",
       "PLACEHOLDER_NO_POSITIONS": "You do not have any open positions",
       "PLACEHOLDER_NO_POSITIONS_LOG_IN": "You must sign in to view positions",
       "PLACEHOLDER_NO_ORDERS": "You do not have any open orders",
@@ -154,6 +161,7 @@
       "SCAN_QR_CODE_ERROR": "Code not recognized",
       "SCAN_QR_CODE_SHORT": "Scan QR",
       "SELECT_WALLET": "Select wallet",
+      "SWITCH_TO_WALLET": "Please open your {WALLET} app to continue.",
       "SELECT_WALLET_TEXT": "We found the following options based on wallets which support dYdX.",
       "UNDERSTAND_RISKS_TITLE": "I understand the risks",
       "USERNAME_REQUIRED": "Username is required",
@@ -163,7 +171,7 @@
       "NETWORK_MISMATCH": "Network Mismatch",
       "SWITCH_WALLET": "Please switch your wallet to {WALLET_ADDR}",
       "WALLET_ACCOUNT_ERROR": "Unable to obtain account",
-      "ENTER_CODE": "Enter the decoding key"
+      "ENTER_CODE": "Enter the verification code"
     },
     "ONBOARDING_TITLE": {
       "CREATE_PROFILE": "Create Profile"
@@ -237,31 +245,40 @@
       "SELECT_EXPIRATION_TIME_UNIT": "Select expiration time unit",
       "SUBMITTING_ORDER": "Submitting",
       "SUBMITTING_ORDER_DESC": "Your order is being submitted.",
+      "CANCELING_N_ORDERS_FAILED": "{COUNT} order cancels failed",
+      "CANCELING_ONE_ORDER_FAILED": "{COUNT} order cancel failed",
       "CANCELING_ORDER": "Canceling",
       "CANCELING_ORDER_DESC": "Your order to {SIDE} {SIZE} {MARKET} is being canceled.",
       "UNREALIZED": "Unrealized",
       "MODE": {
         "SELECT_PREFERENCE": "Select Preference",
         "MODE_TO_BE_USED": "This mode will be used for all trades",
-        "CHANGE_SETINGS": "Change this from Profile › Settings",
-        "SIMPLE": "Simple",
+        "CHANGE_SETINGS": "Change this from Settings",
+        "SIMPLE": "Default",
         "ADVANCED": "Advanced",
         "EASIER": "Easier to use",
         "POWERFUL": "More powerful",
         "TRADE_BOX": "Mode",
-        "SELECT_MODE": "Select Mode",
+        "SELECT_MODE": "Select mode",
         "SWAP": "Swap",
-        "SIMPLE_AND_EASIER": "Simple & easy to use",
+        "SIMPLE_AND_EASIER": "Focused yet powerful",
         "PRO": "Pro",
-        "FULLY_FEATURED": "Fully featured"
+        "FULLY_FEATURED": "Fully featured",
+        "SWITCH_TO_PRO": "Switch to Pro"
       },
       "YOUR_POSITION": "Your {TOKEN} Position",
       "MARGIN_RISK": "Margin Risk",
       "HIGH": "High",
+      "HIGH_RISK": "High Risk",
       "MEDIUM": "Medium",
+      "MEDIUM_RISK": "Medium Risk",
       "LOW": "Low",
+      "LOW_RISK": "Low Risk",
       "SWAP": "Swap",
       "RISK": "Risk",
+      "SLIDE_TO_BUY": "Slide to long",
+      "SLIDE_TO_SELL": "Slide to short",
+      "SLIDE_TO_CLOSE": "Slide to close",
       "FROM_TO": "from {TOKEN_FROM} to {TOKEN_TO}",
       "CLOSING_POSITION": "{TOKEN_FROM} position",
       "PLACE_ANOTHER_TRADE": "Place another trade",
@@ -302,6 +319,12 @@
         "CROSS_SIDE": "Change {TOKEN} position to {SIDE}"
       }
     },
+    "COMPLIANCE": {
+      "CLOSE_ONLY_TITLE": "Close-only mode",
+      "CLOSE_ONLY_BODY": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use, or have engaged in activity that violates our terms of use, you have been blocked. You have until {DATE} to withdraw your funds before your access to the app is blocked. Please visit the web interface to see next steps. If you believe there has been an error, please contact support at {HELP_LINK}.",
+      "PERMANENTLY_BLOCKED_TITLE": "Permanently blocked",
+      "PERMANENTLY_BLOCKED_BODY": "Because you appear to be a resident of, or trading from, a jurisdiction that violates our terms of use and previously have been given an opportunity to redress circumstances that led to restrictions on your account, you have been permanently blocked. If you believe there has been an error, please contact support at {HELP_LINK}."
+    },
     "COMPLIANCE_MODAL": {
       "ACCOUNT_RESTRICTED": "Account Restricted",
       "COMPLIANCE_REQUIRED": "Compliance Required",
@@ -314,7 +337,7 @@
       "PROMOTION": "Promotion"
     },
     "CAMERA": {
-      "ENABLE_CAMERA": "Enable Camera Access",
+      "ENABLE_CAMERA": "Continue",
       "ALLOW_ACCESS": "Allow access to camera",
       "ENABLE_CAMERA_TO_SCAN": "Enable camera access to scan QR code"
     },
@@ -326,8 +349,11 @@
       "UPDATE_SETTINGS_MESSAGE": "Please update notifications in your app settings.",
       "PERMIT": "Permit",
       "GO_TO_SETTINGS": "Go to Settings",
-      "PRIMER_TITLE": "Get Push Alerts",
-      "PRIMER_MESSAGE": "Enable push notification to get alerts when your transaction status changes."
+      "PRIMER_TITLE": "Turn on notifications",
+      "PRIMER_MESSAGE": "Stay up to date on your orders and positions.",
+      "ENABLED": "Notifications turned on",
+      "DISABLED": "Notifications disabled",
+      "DISABLED_BODY": "Turn them on in settings."
     },
     "SHARE_ACTIVITY_MODAL": {
       "TWEET_PROFILE": "Check out my profile on @dYdX!",
@@ -336,7 +362,8 @@
     },
     "DIRECT_TRANSFER_MODAL": {
       "ENTER_ETH_ADDRESS": "Enter wallet address",
-      "ENTER_TRANSFER_AMOUNT": "Enter transfer amount"
+      "ENTER_TRANSFER_AMOUNT": "Enter transfer amount",
+      "REQUIRED_FOR_CEX": "Required for Centralized Exchanges"
     },
     "FIAT_ONRAMP": {
       "NEW": "New!",
@@ -359,6 +386,8 @@
       "NO_GAS_TITLE": "Insufficent wallet balance to cover gas fee",
       "NO_GAS_BODY": "Please first make a small deposit to your dYdX account to refill wallet.",
       "THEME": "Theme",
+      "NOTIFICATIONS": "Notifications",
+      "DISPLAY_IN_APP_NOTIFICATIONS": "Display In-App Notifications",
       "DIRECTION_COLOR_PREFERENCE": "Color Preference",
       "DARK": "Dark",
       "CLASSIC_DARK": "Classic Dark",
@@ -383,6 +412,7 @@
       "IN_PROGRESS_TEXT": "Your deposit of {AMOUNT_ELEMENT} has been submitted. This can take a few minutes.",
       "COMPLETED_TITLE": "Deposit completed",
       "COMPLETED_TEXT": "Your deposit has been confirmed. Your funds are now available for instant trading on dYdX. Now get going!",
+      "COMPLETED_TEXT_SHORT": "Your deposit has been completed.",
       "MOBILE_WALLET_REQUIRED": "Please connect your mobile wallet to deposit."
     },
     "V4_WITHDRAWAL": {
@@ -396,6 +426,33 @@
     "V4_TRANSFEROUT": {
       "COMPLETED_TITLE": "Transfer submitted",
       "COMPLETED_TEXT": "Your transfer of {AMOUNT_ELEMENT} {TOKEN} has been submitted"
+    },
+    "ISSUE_REPORT": {
+      "SETTINGS_TITLE": "Report Issue",
+      "LOADING_TITLE": "Loading log files...",
+      "LOADING_COMPLETED_TITLE": "Log file created",
+      "LOADING_ERROR_TITLE": "Failed to create log file",
+      "EMAIL_SUBJECT": "Issue Report",
+      "EMAIL_BODY": "Please describe the issue you're facing:",
+      "CHOOSER_TITLE": "Send App Log"
+    },
+    "PREDICTION_MARKET": {
+      "PREDICTION_MARKETS": "Prediction Markets",
+      "LEVERAGE_TRADE_US_ELECTION_SHORT": "Leverage trade the U.S. Election",
+      "WITH_PREDICTION_MARKETS": "with Prediction Markets",
+      "PREDICTION_MARKETS_SETTLEMENT_DESCRIPTION": "Prediction Markets will settle at $1 if the event occurs as predicted. Otherwise, they will settle at $0.",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_TITLE":"Leverage Trade Event Outcomes",
+      "LEVERAGE_TRADE_EVENT_OUTCOMES_DESCRIPTION":"On a wide range of topics, including politics, sports, pop culture, and more.",
+      "SETTLEMENT_OUTCOMES_TITLE": "$0 or $1 Settlement",
+      "SETTLEMENT_OUTCOMES_DESCRIPTION": "Market will automatically settle at $1 if the event occurs. Otherwise, it will settle at ~$0. Price is equivalent to the percentage chance the outcome will occur."
+    },
+    "VAULT":  {
+        "LAUNCH_MARKET_LINE1": "Requires {DEPOSIT_AMOUNT} added to MegaVault",
+        "LAUNCH_MARKET_LINE2": "MegaVault has an estimated {APR} APR"
+    },
+    "SIMPLE_UI": {
+        "BUYING_POWER_TOOLTIP": "This is the maximum amount of exposure you can get with your deposit. It is not the amount you can deposit or withdraw. Your buying power can change rapidly and may be positive even when you are making losses.",
+        "RISK_TOOLTIP": "This is the percentage of your deposit held as margin by your open positions. This can change rapidly when the market price changes."
     }
   },
   "RATE_APP": {
